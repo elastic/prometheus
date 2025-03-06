@@ -18,10 +18,10 @@ import (
 	"math"
 	"sort"
 
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/tsdb/chunkenc"
-	"github.com/prometheus/prometheus/tsdb/chunks"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/tsdb/chunkenc"
+	"github.com/elastic/prometheus/tsdb/chunks"
 )
 
 type SeriesEntry struct {

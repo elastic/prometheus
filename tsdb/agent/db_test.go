@@ -29,16 +29,16 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/storage/remote"
-	"github.com/prometheus/prometheus/tsdb"
-	"github.com/prometheus/prometheus/tsdb/chunks"
-	"github.com/prometheus/prometheus/tsdb/record"
-	"github.com/prometheus/prometheus/tsdb/tsdbutil"
-	"github.com/prometheus/prometheus/tsdb/wlog"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/model/exemplar"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/storage"
+	"github.com/elastic/prometheus/storage/remote"
+	"github.com/elastic/prometheus/tsdb"
+	"github.com/elastic/prometheus/tsdb/chunks"
+	"github.com/elastic/prometheus/tsdb/record"
+	"github.com/elastic/prometheus/tsdb/tsdbutil"
+	"github.com/elastic/prometheus/tsdb/wlog"
+	"github.com/elastic/prometheus/util/testutil"
 )
 
 func TestDB_InvalidSeries(t *testing.T) {

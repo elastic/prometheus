@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/promql/promqltest"
+	"github.com/elastic/prometheus/promql/promqltest"
 )
 
 func TestRulesUnitTest(t *testing.T) {

@@ -22,10 +22,10 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/storage"
+	"github.com/elastic/prometheus/config"
+	"github.com/elastic/prometheus/model/exemplar"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/storage"
 )
 
 const (

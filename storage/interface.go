@@ -18,13 +18,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/metadata"
-	"github.com/prometheus/prometheus/tsdb/chunkenc"
-	"github.com/prometheus/prometheus/tsdb/chunks"
-	"github.com/prometheus/prometheus/util/annotations"
+	"github.com/elastic/prometheus/model/exemplar"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/metadata"
+	"github.com/elastic/prometheus/tsdb/chunkenc"
+	"github.com/elastic/prometheus/tsdb/chunks"
+	"github.com/elastic/prometheus/util/annotations"
 )
 
 // The errors exposed.

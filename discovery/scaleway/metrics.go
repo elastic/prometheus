@@ -14,7 +14,7 @@
 package scaleway
 
 import (
-	"github.com/prometheus/prometheus/discovery"
+	"github.com/elastic/prometheus/discovery"
 )
 
 var _ discovery.DiscovererMetrics = (*scalewayMetrics)(nil)

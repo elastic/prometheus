@@ -28,8 +28,8 @@ import (
 	"github.com/gophercloud/gophercloud/pagination"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	"github.com/prometheus/prometheus/util/strutil"
+	"github.com/elastic/prometheus/discovery/targetgroup"
+	"github.com/elastic/prometheus/util/strutil"
 )
 
 const (

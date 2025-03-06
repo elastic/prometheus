@@ -18,7 +18,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/prometheus/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/histogram"
 )
 
 // Encoding is the identifier for a chunk encoding.

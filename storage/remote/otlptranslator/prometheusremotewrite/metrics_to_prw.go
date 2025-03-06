@@ -25,8 +25,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/multierr"
 
-	"github.com/prometheus/prometheus/prompb"
-	prometheustranslator "github.com/prometheus/prometheus/storage/remote/otlptranslator/prometheus"
+	"github.com/elastic/prometheus/prompb"
+	prometheustranslator "github.com/elastic/prometheus/storage/remote/otlptranslator/prometheus"
 )
 
 type Settings struct {

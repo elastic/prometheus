@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/prometheus/prometheus/storage"
+	"github.com/elastic/prometheus/storage"
 )
 
 func TestMain(m *testing.M) {

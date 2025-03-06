@@ -29,16 +29,16 @@ import (
 	"github.com/oklog/ulid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/tsdb/chunkenc"
-	"github.com/prometheus/prometheus/tsdb/chunks"
-	"github.com/prometheus/prometheus/tsdb/index"
-	"github.com/prometheus/prometheus/tsdb/tombstones"
-	"github.com/prometheus/prometheus/tsdb/tsdbutil"
-	"github.com/prometheus/prometheus/util/annotations"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/storage"
+	"github.com/elastic/prometheus/tsdb/chunkenc"
+	"github.com/elastic/prometheus/tsdb/chunks"
+	"github.com/elastic/prometheus/tsdb/index"
+	"github.com/elastic/prometheus/tsdb/tombstones"
+	"github.com/elastic/prometheus/tsdb/tsdbutil"
+	"github.com/elastic/prometheus/util/annotations"
+	"github.com/elastic/prometheus/util/testutil"
 )
 
 // TODO(bwplotka): Replace those mocks with remote.concreteSeriesSet.

@@ -26,11 +26,11 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/timestamp"
-	"github.com/prometheus/prometheus/promql/parser/posrange"
-	"github.com/prometheus/prometheus/util/strutil"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/timestamp"
+	"github.com/elastic/prometheus/promql/parser/posrange"
+	"github.com/elastic/prometheus/util/strutil"
 )
 
 var parserPool = sync.Pool{

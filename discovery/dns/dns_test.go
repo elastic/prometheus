@@ -28,8 +28,8 @@ import (
 	"go.uber.org/goleak"
 	"gopkg.in/yaml.v2"
 
-	"github.com/prometheus/prometheus/discovery"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
+	"github.com/elastic/prometheus/discovery"
+	"github.com/elastic/prometheus/discovery/targetgroup"
 )
 
 func TestMain(m *testing.M) {

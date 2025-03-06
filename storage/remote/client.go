@@ -34,9 +34,9 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/prompb"
-	"github.com/prometheus/prometheus/storage/remote/azuread"
+	"github.com/elastic/prometheus/config"
+	"github.com/elastic/prometheus/prompb"
+	"github.com/elastic/prometheus/storage/remote/azuread"
 )
 
 const maxErrMsgLen = 1024

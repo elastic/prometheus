@@ -40,21 +40,21 @@ import (
 	"go.uber.org/atomic"
 	"go.uber.org/goleak"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/metadata"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/tsdb/chunkenc"
-	"github.com/prometheus/prometheus/tsdb/chunks"
-	"github.com/prometheus/prometheus/tsdb/fileutil"
-	"github.com/prometheus/prometheus/tsdb/index"
-	"github.com/prometheus/prometheus/tsdb/record"
-	"github.com/prometheus/prometheus/tsdb/tombstones"
-	"github.com/prometheus/prometheus/tsdb/tsdbutil"
-	"github.com/prometheus/prometheus/tsdb/wlog"
-	"github.com/prometheus/prometheus/util/annotations"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/config"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/metadata"
+	"github.com/elastic/prometheus/storage"
+	"github.com/elastic/prometheus/tsdb/chunkenc"
+	"github.com/elastic/prometheus/tsdb/chunks"
+	"github.com/elastic/prometheus/tsdb/fileutil"
+	"github.com/elastic/prometheus/tsdb/index"
+	"github.com/elastic/prometheus/tsdb/record"
+	"github.com/elastic/prometheus/tsdb/tombstones"
+	"github.com/elastic/prometheus/tsdb/tsdbutil"
+	"github.com/elastic/prometheus/tsdb/wlog"
+	"github.com/elastic/prometheus/util/annotations"
+	"github.com/elastic/prometheus/util/testutil"
 )
 
 func TestMain(m *testing.M) {
@@ -63,7 +63,7 @@ func TestMain(m *testing.M) {
 	flag.Parse()
 	defaultIsolationDisabled = !isolationEnabled
 
-	goleak.VerifyTestMain(m, goleak.IgnoreTopFunction("github.com/prometheus/prometheus/tsdb.(*SegmentWAL).cut.func1"), goleak.IgnoreTopFunction("github.com/prometheus/prometheus/tsdb.(*SegmentWAL).cut.func2"))
+	goleak.VerifyTestMain(m, goleak.IgnoreTopFunction("github.com/elastic/prometheus/tsdb.(*SegmentWAL).cut.func1"), goleak.IgnoreTopFunction("github.com/elastic/prometheus/tsdb.(*SegmentWAL).cut.func2"))
 }
 
 func openTestDB(t testing.TB, opts *Options, rngs []int64) (db *DB) {

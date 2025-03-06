@@ -30,9 +30,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/pmetric/pmetricotlp"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/relabel"
+	"github.com/elastic/prometheus/config"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/relabel"
 )
 
 func testRemoteWriteConfig() *config.RemoteWriteConfig {

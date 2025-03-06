@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/promql/parser/posrange"
+	"github.com/elastic/prometheus/promql/parser/posrange"
 )
 
 type testCase struct {

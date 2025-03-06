@@ -29,13 +29,13 @@ import (
 	"github.com/prometheus/common/route"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/rules"
-	"github.com/prometheus/prometheus/scrape"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/util/annotations"
+	"github.com/elastic/prometheus/config"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/promql"
+	"github.com/elastic/prometheus/rules"
+	"github.com/elastic/prometheus/scrape"
+	"github.com/elastic/prometheus/storage"
+	"github.com/elastic/prometheus/util/annotations"
 )
 
 func TestApiStatusCodes(t *testing.T) {

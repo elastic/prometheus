@@ -20,13 +20,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/timestamp"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/promql/parser"
-	"github.com/prometheus/prometheus/promql/promqltest"
-	"github.com/prometheus/prometheus/util/teststorage"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/timestamp"
+	"github.com/elastic/prometheus/promql"
+	"github.com/elastic/prometheus/promql/parser"
+	"github.com/elastic/prometheus/promql/promqltest"
+	"github.com/elastic/prometheus/util/teststorage"
+	"github.com/elastic/prometheus/util/testutil"
 )
 
 var (

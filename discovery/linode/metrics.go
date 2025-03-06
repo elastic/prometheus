@@ -16,7 +16,7 @@ package linode
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/prometheus/prometheus/discovery"
+	"github.com/elastic/prometheus/discovery"
 )
 
 var _ discovery.DiscovererMetrics = (*linodeMetrics)(nil)

@@ -17,7 +17,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/prometheus/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/labels"
 )
 
 type ruleOrigin struct{}

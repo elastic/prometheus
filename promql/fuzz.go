@@ -20,9 +20,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/textparse"
-	"github.com/prometheus/prometheus/promql/parser"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/textparse"
+	"github.com/elastic/prometheus/promql/parser"
 )
 
 // PromQL parser fuzzing instrumentation for use with

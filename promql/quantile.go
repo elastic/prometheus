@@ -18,9 +18,9 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/util/almost"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/util/almost"
 )
 
 // smallDeltaTolerance is the threshold for relative deltas between classic

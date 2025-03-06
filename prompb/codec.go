@@ -18,9 +18,9 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/exemplar"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
 )
 
 // NOTE(bwplotka): This file's code is tested in /prompb/rwcommon.

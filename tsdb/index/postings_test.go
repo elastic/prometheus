@@ -29,9 +29,9 @@ import (
 	"github.com/grafana/regexp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/storage"
+	"github.com/elastic/prometheus/util/testutil"
 )
 
 func TestMemPostings_addFor(t *testing.T) {

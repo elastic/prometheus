@@ -19,7 +19,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/prometheus/prometheus/promql/parser/posrange"
+	"github.com/elastic/prometheus/promql/parser/posrange"
 )
 
 // Item represents a token or text string returned from the scanner.

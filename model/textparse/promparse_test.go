@@ -26,9 +26,9 @@ import (
 	"github.com/prometheus/common/expfmt"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/model/exemplar"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/util/testutil"
 )
 
 type expectedParse struct {

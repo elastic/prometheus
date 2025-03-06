@@ -30,16 +30,16 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/textparse"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/promql/promqltest"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/tsdb"
-	"github.com/prometheus/prometheus/util/teststorage"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/config"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/textparse"
+	"github.com/elastic/prometheus/promql"
+	"github.com/elastic/prometheus/promql/promqltest"
+	"github.com/elastic/prometheus/storage"
+	"github.com/elastic/prometheus/tsdb"
+	"github.com/elastic/prometheus/util/teststorage"
+	"github.com/elastic/prometheus/util/testutil"
 )
 
 var scenarios = map[string]struct {

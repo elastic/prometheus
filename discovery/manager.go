@@ -25,7 +25,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/config"
 
-	"github.com/prometheus/prometheus/discovery/targetgroup"
+	"github.com/elastic/prometheus/discovery/targetgroup"
 )
 
 type poolKey struct {

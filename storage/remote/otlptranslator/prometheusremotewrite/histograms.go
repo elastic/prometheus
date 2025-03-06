@@ -24,8 +24,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/prometheus/prometheus/model/value"
-	"github.com/prometheus/prometheus/prompb"
+	"github.com/elastic/prometheus/model/value"
+	"github.com/elastic/prometheus/prompb"
 )
 
 const defaultZeroThreshold = 1e-128

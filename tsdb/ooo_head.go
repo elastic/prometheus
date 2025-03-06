@@ -17,12 +17,12 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/prometheus/prometheus/tsdb/chunkenc"
+	"github.com/elastic/prometheus/tsdb/chunkenc"
 
 	"github.com/oklog/ulid"
 
-	"github.com/prometheus/prometheus/tsdb/chunks"
-	"github.com/prometheus/prometheus/tsdb/tombstones"
+	"github.com/elastic/prometheus/tsdb/chunks"
+	"github.com/elastic/prometheus/tsdb/tombstones"
 )
 
 // OOOChunk maintains samples in time-ascending order.

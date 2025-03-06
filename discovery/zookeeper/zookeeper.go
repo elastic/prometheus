@@ -28,10 +28,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/discovery"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	"github.com/prometheus/prometheus/util/strutil"
-	"github.com/prometheus/prometheus/util/treecache"
+	"github.com/elastic/prometheus/discovery"
+	"github.com/elastic/prometheus/discovery/targetgroup"
+	"github.com/elastic/prometheus/util/strutil"
+	"github.com/elastic/prometheus/util/treecache"
 )
 
 var (

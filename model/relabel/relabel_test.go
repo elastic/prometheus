@@ -21,8 +21,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/util/testutil"
 )
 
 func TestRelabel(t *testing.T) {

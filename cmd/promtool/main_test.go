@@ -33,8 +33,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/rulefmt"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/rulefmt"
 )
 
 var promtoolPath = os.Args[0]

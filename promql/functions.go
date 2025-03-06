@@ -27,11 +27,11 @@ import (
 	"github.com/grafana/regexp"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/promql/parser"
-	"github.com/prometheus/prometheus/promql/parser/posrange"
-	"github.com/prometheus/prometheus/util/annotations"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/promql/parser"
+	"github.com/elastic/prometheus/promql/parser/posrange"
+	"github.com/elastic/prometheus/util/annotations"
 )
 
 // FunctionCall is the type of a PromQL function implementation

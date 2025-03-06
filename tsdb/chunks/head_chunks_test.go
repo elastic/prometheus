@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/tsdb/chunkenc"
+	"github.com/elastic/prometheus/tsdb/chunkenc"
 )
 
 var writeQueueSize int

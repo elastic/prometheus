@@ -33,11 +33,11 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	"github.com/prometheus/prometheus/model/timestamp"
-	"github.com/prometheus/prometheus/model/value"
-	"github.com/prometheus/prometheus/prompb"
+	"github.com/elastic/prometheus/model/timestamp"
+	"github.com/elastic/prometheus/model/value"
+	"github.com/elastic/prometheus/prompb"
 
-	prometheustranslator "github.com/prometheus/prometheus/storage/remote/otlptranslator/prometheus"
+	prometheustranslator "github.com/elastic/prometheus/storage/remote/otlptranslator/prometheus"
 )
 
 const (

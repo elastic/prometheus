@@ -27,13 +27,13 @@ import (
 	"go.uber.org/atomic"
 	"gopkg.in/yaml.v2"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/rulefmt"
-	"github.com/prometheus/prometheus/model/timestamp"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/promql/parser"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/template"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/rulefmt"
+	"github.com/elastic/prometheus/model/timestamp"
+	"github.com/elastic/prometheus/promql"
+	"github.com/elastic/prometheus/promql/parser"
+	"github.com/elastic/prometheus/storage"
+	"github.com/elastic/prometheus/template"
 )
 
 const (

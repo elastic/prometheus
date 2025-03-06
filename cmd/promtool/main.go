@@ -47,19 +47,19 @@ import (
 	promconfig "github.com/prometheus/common/config"
 	"github.com/prometheus/common/expfmt"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/discovery"
-	"github.com/prometheus/prometheus/discovery/file"
-	"github.com/prometheus/prometheus/discovery/kubernetes"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/rulefmt"
-	"github.com/prometheus/prometheus/notifier"
-	_ "github.com/prometheus/prometheus/plugins" // Register plugins.
-	"github.com/prometheus/prometheus/promql/parser"
-	"github.com/prometheus/prometheus/promql/promqltest"
-	"github.com/prometheus/prometheus/scrape"
-	"github.com/prometheus/prometheus/util/documentcli"
+	"github.com/elastic/prometheus/config"
+	"github.com/elastic/prometheus/discovery"
+	"github.com/elastic/prometheus/discovery/file"
+	"github.com/elastic/prometheus/discovery/kubernetes"
+	"github.com/elastic/prometheus/discovery/targetgroup"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/rulefmt"
+	"github.com/elastic/prometheus/notifier"
+	_ "github.com/elastic/prometheus/plugins" // Register plugins.
+	"github.com/elastic/prometheus/promql/parser"
+	"github.com/elastic/prometheus/promql/promqltest"
+	"github.com/elastic/prometheus/scrape"
+	"github.com/elastic/prometheus/util/documentcli"
 )
 
 const (

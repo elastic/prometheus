@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/value"
+	"github.com/elastic/prometheus/model/value"
 )
 
 func TestHistogramString(t *testing.T) {

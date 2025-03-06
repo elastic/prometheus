@@ -18,9 +18,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/util/annotations"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/storage"
+	"github.com/elastic/prometheus/util/annotations"
 )
 
 type sampleAndChunkQueryableClient struct {

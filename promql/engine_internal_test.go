@@ -20,8 +20,8 @@ import (
 	"github.com/go-kit/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/promql/parser"
-	"github.com/prometheus/prometheus/util/annotations"
+	"github.com/elastic/prometheus/promql/parser"
+	"github.com/elastic/prometheus/util/annotations"
 )
 
 func TestRecoverEvaluatorRuntime(t *testing.T) {

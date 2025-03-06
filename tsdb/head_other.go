@@ -18,7 +18,7 @@ package tsdb
 import (
 	"github.com/go-kit/log"
 
-	"github.com/prometheus/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/labels"
 )
 
 // Helper method to access labels; trivial when not using dedupelabels.

@@ -19,11 +19,11 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/relabel"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/config"
+	"github.com/elastic/prometheus/discovery/targetgroup"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/relabel"
+	"github.com/elastic/prometheus/util/testutil"
 
 	"github.com/stretchr/testify/require"
 )

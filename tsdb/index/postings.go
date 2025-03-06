@@ -27,8 +27,8 @@ import (
 
 	"github.com/bboreham/go-loser"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/storage"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/storage"
 )
 
 var allPostingsKey = labels.Label{}

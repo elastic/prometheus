@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/prompb"
+	"github.com/elastic/prometheus/prompb"
 )
 
 var writeRequestFixture = &prompb.WriteRequest{

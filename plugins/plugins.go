@@ -17,71 +17,71 @@ package plugins
 
 import (
 	// Register aws plugin.
-	_ "github.com/prometheus/prometheus/discovery/aws"
+	_ "github.com/elastic/prometheus/discovery/aws"
 
 	// Register azure plugin.
-	_ "github.com/prometheus/prometheus/discovery/azure"
+	_ "github.com/elastic/prometheus/discovery/azure"
 
 	// Register consul plugin.
-	_ "github.com/prometheus/prometheus/discovery/consul"
+	_ "github.com/elastic/prometheus/discovery/consul"
 
 	// Register digitalocean plugin.
-	_ "github.com/prometheus/prometheus/discovery/digitalocean"
+	_ "github.com/elastic/prometheus/discovery/digitalocean"
 
 	// Register dns plugin.
-	_ "github.com/prometheus/prometheus/discovery/dns"
+	_ "github.com/elastic/prometheus/discovery/dns"
 
 	// Register eureka plugin.
-	_ "github.com/prometheus/prometheus/discovery/eureka"
+	_ "github.com/elastic/prometheus/discovery/eureka"
 
 	// Register gce plugin.
-	_ "github.com/prometheus/prometheus/discovery/gce"
+	_ "github.com/elastic/prometheus/discovery/gce"
 
 	// Register hetzner plugin.
-	_ "github.com/prometheus/prometheus/discovery/hetzner"
+	_ "github.com/elastic/prometheus/discovery/hetzner"
 
 	// Register ionos plugin.
-	_ "github.com/prometheus/prometheus/discovery/ionos"
+	_ "github.com/elastic/prometheus/discovery/ionos"
 
 	// Register kubernetes plugin.
-	_ "github.com/prometheus/prometheus/discovery/kubernetes"
+	_ "github.com/elastic/prometheus/discovery/kubernetes"
 
 	// Register linode plugin.
-	_ "github.com/prometheus/prometheus/discovery/linode"
+	_ "github.com/elastic/prometheus/discovery/linode"
 
 	// Register marathon plugin.
-	_ "github.com/prometheus/prometheus/discovery/marathon"
+	_ "github.com/elastic/prometheus/discovery/marathon"
 
 	// Register moby plugin.
-	_ "github.com/prometheus/prometheus/discovery/moby"
+	_ "github.com/elastic/prometheus/discovery/moby"
 
 	// Register nomad plugin.
-	_ "github.com/prometheus/prometheus/discovery/nomad"
+	_ "github.com/elastic/prometheus/discovery/nomad"
 
 	// Register openstack plugin.
-	_ "github.com/prometheus/prometheus/discovery/openstack"
+	_ "github.com/elastic/prometheus/discovery/openstack"
 
 	// Register ovhcloud plugin.
-	_ "github.com/prometheus/prometheus/discovery/ovhcloud"
+	_ "github.com/elastic/prometheus/discovery/ovhcloud"
 
 	// Register puppetdb plugin.
-	_ "github.com/prometheus/prometheus/discovery/puppetdb"
+	_ "github.com/elastic/prometheus/discovery/puppetdb"
 
 	// Register scaleway plugin.
-	_ "github.com/prometheus/prometheus/discovery/scaleway"
+	_ "github.com/elastic/prometheus/discovery/scaleway"
 
 	// Register triton plugin.
-	_ "github.com/prometheus/prometheus/discovery/triton"
+	_ "github.com/elastic/prometheus/discovery/triton"
 
 	// Register uyuni plugin.
-	_ "github.com/prometheus/prometheus/discovery/uyuni"
+	_ "github.com/elastic/prometheus/discovery/uyuni"
 
 	// Register vultr plugin.
-	_ "github.com/prometheus/prometheus/discovery/vultr"
+	_ "github.com/elastic/prometheus/discovery/vultr"
 
 	// Register xds plugin.
-	_ "github.com/prometheus/prometheus/discovery/xds"
+	_ "github.com/elastic/prometheus/discovery/xds"
 
 	// Register zookeeper plugin.
-	_ "github.com/prometheus/prometheus/discovery/zookeeper"
+	_ "github.com/elastic/prometheus/discovery/zookeeper"
 )

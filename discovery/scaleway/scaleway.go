@@ -28,9 +28,9 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/scaleway/scaleway-sdk-go/scw"
 
-	"github.com/prometheus/prometheus/discovery"
-	"github.com/prometheus/prometheus/discovery/refresh"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
+	"github.com/elastic/prometheus/discovery"
+	"github.com/elastic/prometheus/discovery/refresh"
+	"github.com/elastic/prometheus/discovery/targetgroup"
 )
 
 // metaLabelPrefix is the meta prefix used for all meta labels.

@@ -32,16 +32,16 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/metadata"
-	"github.com/prometheus/prometheus/prompb"
-	writev2 "github.com/prometheus/prometheus/prompb/io/prometheus/write/v2"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/tsdb"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/elastic/prometheus/config"
+	"github.com/elastic/prometheus/model/exemplar"
+	"github.com/elastic/prometheus/model/histogram"
+	"github.com/elastic/prometheus/model/labels"
+	"github.com/elastic/prometheus/model/metadata"
+	"github.com/elastic/prometheus/prompb"
+	writev2 "github.com/elastic/prometheus/prompb/io/prometheus/write/v2"
+	"github.com/elastic/prometheus/storage"
+	"github.com/elastic/prometheus/tsdb"
+	"github.com/elastic/prometheus/util/testutil"
 )
 
 func TestRemoteWriteHandlerHeadersHandling_V1Message(t *testing.T) {

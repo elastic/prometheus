@@ -14,7 +14,7 @@
 package aws
 
 import (
-	"github.com/prometheus/prometheus/discovery"
+	"github.com/elastic/prometheus/discovery"
 )
 
 type lightsailMetrics struct {
